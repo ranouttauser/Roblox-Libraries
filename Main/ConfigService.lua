@@ -55,7 +55,7 @@ local AllConfigs = {}
 		Can use everything else except :Find().
 
 	* Config:Find(Name)
-		Called with local.
+		Called as variable.
 		Will return with the config if it exists.
 
 	* Config:Set(Key, Value)
